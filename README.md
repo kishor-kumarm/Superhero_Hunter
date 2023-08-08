@@ -36,6 +36,7 @@ As per the design documentation, this website contains mainly three pages with s
 A. Developer gateway.marvel.com/v1/public/characters API used for fetching the data.<br>
 B. All the functionalities have been implemented as per the design documentation.<br>
 C. Comments, Structure, Indentation, Variables and functions name, all of these are taken care of in the code.<br>
+D. Only the CryptoJs library has been used only for encrypting the API's public and private key
 
 Please visit the live server, Hope you liked it.<br>
 
