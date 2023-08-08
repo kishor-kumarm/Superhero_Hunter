@@ -1,39 +1,43 @@
 # Superhero_Hunter
+***
+Project Name: Superhero Hunter <br>
+Live server URL: https://kishor-kumarm.github.io/Superhero_Hunter/<br>
+---
+I am Kishor, and this project is all about making a frontend application using HTML, CSS and Javascript.<br>
+API has been provided as per our requirement, I'm using this to fetch the data and use it accordingly.<br>
 
-Project Name: Superhero Hunter
-Live server URL: https://kishor-kumarm.github.io/Superhero_Hunter/
+As per the design documentation, this website contains mainly three pages with some features following:<br>
 
-I am Kishor, and this project is all about making a frontend application using HTML, CSS and Javascript.
-API has been provided as per our requirement, I'm using this to fetch the data and using it accordingly.
+1. Home Page<br>
+---
+    1.1 On page Onload, showing some superheroes list by fetching data from API.<br>
+    1.2 There is one Search bar by which we can search superheroes by their name and results will be shown <br>
+        on the page as per our query.<br>
+    1.3 Results showing in a card which contains one button Add to favourite/Remove from Favourite by which <br>
+        we can add/remove that particular superhero from the favourite list.<br>
+    1.4 Also If we click on the Superhero name then we will redirect to the About page in which we can see more<br>
+        information about that superhero.<br>
 
-As per the design documention this website contains mainly three pages with some features are following:
+2. Superhero page/More information about Superhero<br>
+---
+    2.1 This page contains detailed information about the superhero-like pictures, comics, series, and story <br>
+        counts also descriptions about the character. About page title change as per the superhero name.<br>
+    2.2 And this card also contains add/remove button from this page itself we can add it to my favourite<br>
+        superheroes list.<br>
+    2.3 In the navbar there are two buttons are there Home and Favourite to navigate to the respective page.<br>
 
-1. Home Page
-    1.1 On page Onload, showing some superheros list by fetching data from API.
-    1.2 There is one Search bar by which we can search superhero by there name and results will be showing 
-        in the page as per our query.
-    1.3 Results showing in a card which contains one button Add to favourite/Remove from Favourite by which 
-        we can add/remove that particular superhero from favourite list.
-    1.4 Also If we click on the Superhero name then we will redirect to about page in which we can see more
-        information about that superhero.
+3. My favourite superhero page<br>
+---
+    3.1 This page contains all the favourite superheroes list which we have added via the "Add to favourite" button.<br>
+    3.2 Each superhero card contains remove from favourite button to remove from the favourite.<br>
+    3.3 Also on click on the superhero name from the card which will navigate to the more information page.<br>
+    3.4 Navbar contains a button to redirect to the Home page.<br>
 
-2. Superhero page/More information about Superhero
-    2.1 This page contain the detailed information about the superhero like picture, comic, series, stories 
-        counts also description about character. About page title change as per the superhero name.
-    2.2 And this card also contains add/remove button from this page itself we can add it to my favourite
-        superheroes list.
-    2.3 In the navbar there are two button are there Home and Favourite to navigate to the respective page.
+A. Developer gateway.marvel.com/v1/public/characters API used for fetching the data.<br>
+B. All the functionalities have been implemented as per the design documentation.<br>
+C. Comments, Structure, Indentation, Variables and functions name, all of these are taken care of in the code.<br>
 
-3. My favourite superhero page
-    3.1 This page contains all the favourite superheroes list which we have added via "Add to favourite" button.
-    3.2 Each superheroes card contains remove from favourite button to remove it from the favourite.
-    3.3 Also on click on superhero name from the card which will navigate to the more information page.
-    3.4 Navbar contains a button to redirect to the Home page.
+Please visit the live server, Hope you liked it.<br>
 
-A. Developer gateway.marvel.com/v1/public/characters API used for feching the data.
-B. All the Functionalies has been implemented as per the design documentation.
-C. Comments, Structure, Indentation, Variables and funtions name, all of these are taken care in the code.
-
-Please visit the live server, Hope you liked it.
-
-Thanks and Happy Coding!
+Thanks and Happy Coding!<br>
+***
