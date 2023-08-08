@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/logo0.png">
+    <title>Superhero Hunter</title>
+
+    <!-- external Stylesheet is added -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/favouriteSuperheroes.css">
+  </head>
+  <body>
+    <!-- Navbar starts -->
+    <div class="navbar-wrapper">
+      <div class="navabar-title">
+          <a class="title" href="../index.html">
+              <img src="../assets/heroLogo.svg" alt="superheroLogo" width="80" height="60"
+              class="d-inline-block align-text-center">
+              <span>Favourites Superhero</span>
+          </a>
+      </div>
+      <div>
+          <!-- home button navigate to home/main page -->
+          <a class="home_button" href="../index.html">
+              <i class="fa-solid fa-heart fav-icon"></i>
+              Home
+          </a>
+      </div>
+    </div>
+    <!-- Navbar ends -->
+    <!-- Body starts - conatins all added favourite superheroes list -->
+    <div class="cards-wrappers" id="fav-superheros-container">
+      <!--Using DOM manipulation cards data has been added-->
+    </div>
+    <!-- Body ends -->
+    <!--  showing notification on removal of favourite hero from the list -->
+    <span data-visiblity="hide" class="removed-notification">Removed from the favourites list successfully!</span>
+    <!-- External Script file -->
+    <script src="../js/favouriteSuperheroes.js"></script>
+  </body>
+</html>

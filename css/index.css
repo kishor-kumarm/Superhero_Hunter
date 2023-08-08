@@ -1,0 +1,200 @@
+/* *******************************************Index Page Styling************************************************ */
+body {
+    background-color: #252525;
+    margin: 0px;
+    font-family: 'segoe ui';
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    cursor: auto;
+    box-sizing: border-box;
+}
+
+.navbar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: #3d3d3d;
+    position: relative;
+    margin: 0px;
+    box-shadow: 0px 0px 5px 0px #000000db;
+}
+.title {
+    font-size: 30px;
+    text-decoration: none;
+    color: #efefef;
+    display: flex;
+    margin-left: 10px;
+}
+.title > img {
+    height: 70px;
+}
+.title > span {
+    margin: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+input[type="search"] {
+    outline: 0; 
+    width: 30rem;
+    background: #434343;
+    padding: 0 1.6rem;
+    border-radius: 1rem;
+    appearance: none; 
+    z-index: 1;
+    font-size: 1.4rem;
+    position: relative;
+    height: 3rem;
+    border: 0;
+    color: rgb(145, 145, 145);
+    box-shadow: 0px 0px 5px 0px white;
+}
+
+input:not(:placeholder-shown) {
+    font-size: 1.4rem;
+    color: #efefef;
+    box-shadow: inset 0 0 10px #7d7d7d;
+}
+
+.navabar_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_button, .fav_buttons {
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background: #2c2c2d;
+    top: 18px;
+    right: 16px;
+    border: 1px solid #9a8b54;
+    border-radius: 1rem 1rem;
+    box-shadow: 0px 0px 5px 0px white;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.home_button:hover,.fav_buttons:hover {
+    box-shadow: inset 0 0 10px #9a8b54;
+    opacity: .85;
+}
+
+.added-notification, .removed-notification {
+    position: absolute;
+    width: 362px;
+    bottom:120px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    padding: 9px 18px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 4px #6d6d6d;
+}
+.added-notification {
+    background-color: #1a1a1a;
+}
+.removed-notification {
+    background-color: #3f2424;   
+}
+.added-notification[data-visiblity="hide"], .removed-notification[data-visiblity="hide"] {
+    display: none;
+}
+.added-notification[data-visiblity="show"], .removed-notification[data-visiblity="show"] {
+    display: block;
+}
+
+
+.hero-cards-wrappers {
+    padding-top: 20px;
+    float:left;
+    padding: 0px 50px; 
+    position:relative; 
+    
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    flex: 0 1 16%;
+    background-color: #1a1a1a;
+    border: 1px solid #fff0f580;;
+    margin-bottom: 2em;
+    margin: 26px;
+    height: 400px;
+    border-radius: 5px;
+
+}
+.card:hover {
+    box-shadow:  5px 5px 15px hsla(0, 10%, 51%, 0.8);
+    transition: 0.3s all ease-in-out;
+}
+.card > .card-img {
+    display: block;
+    width: 100%;
+    height: 65%;
+    border-radius: inherit;
+}
+.card>.card-img-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-title {
+    color:rgb(0 255 128);
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-title:hover {
+    color: goldenrod;
+    opacity: 0.8;
+}
+.addfav_buttons {
+    border: 1px solid #9a8b54;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px lightgreen;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 36px;
+    font-size: 16px;
+}
+.addfav_buttons:hover {
+    box-shadow: inset 0 0 10px #9a8b54;
+    opacity: .85;
+}
+.card > a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+opacity: 0.7;
+}

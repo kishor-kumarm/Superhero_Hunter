@@ -1,0 +1,51 @@
+/* *******************************************favourite Page Styling************************************************ */
+.cards-wrappers{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
+    color:red;
+}
+.card{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card img{
+    background-color: #1a1a1a;
+    border-radius: 5px 5px 0 0;
+}
+.card > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.card-title {
+    height:inherit;
+}
+.remove-btn{
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #9a8b54;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px lightgreen;
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 90%;
+    height: 40px;
+    font-size: 16px;
+    margin: 19px;
+}
+.remove-btn:hover {
+    box-shadow: inset 0 0 10px #9a8b54;
+    opacity: .85;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" id="root">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Superhero Hunter</title>
+        <link rel="icon" type="image/x-icon" href="/assets/logo0.png">
+        <!-- external Stylesheet is added -->
+        <link href="./css/index.css" rel="stylesheet">
+        <!-- CryptoJs library has been used only for encripting the API's public and private key-->
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
+        integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+        <!-- Navbar starts -->
+        <div class="navbar-wrapper">
+            <div class="navabar-title">
+                <a class="title" href="./index.html">
+                    <img src="./assets/heroLogo.svg" alt="superheroLogo" width="80" height="60"
+                    class="d-inline-block align-text-center">
+                    <span>Superhero Hunter</span>
+                </a>
+            </div>
+            <!-- search bar for seaching superheros by name -->
+            <div class="search-bar-wrapper">
+                <input id="search-bar" type="search" placeholder="Search you superhero... e.g. Hulk" autofocus required />  
+            </div>
+            <div>
+                <!-- Favourite button navigate to favourite superhero list page -->
+                <a class="fav_buttons" href="./view/favouriteSuperheroes.html">
+                    <i class="fa-solid fa-heart fav-icon"></i>
+                    Favourites
+                </a>
+            </div>
+        </div>
+        <!-- Navbar ends -->
+        <!-- Body contains superheroe cards -starts -->
+        <div class="hero-cards-wrappers">
+            <div class="cards" id="superhero-list">
+            </div>
+        </div>
+        <!-- Body contains superheroe cards -ends -->
+        <!--  Notification on added and removal there favourite heroes -->
+        <span data-visiblity="hide" class="added-notification">Added to the favourites list successfully!</span>
+        <span data-visiblity="hide" class="removed-notification">Removed from the favourites list successfully!</span>
+        <!-- External JavaScript file -->
+        <script src="./js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="shortcut icon" href="../assets/logo0.png" type="image/x-icon">
+          <title>Superhero Hunter</title>
+          <!-- external Stylesheet is added -->
+          <link rel="stylesheet" href="../css/index.css">
+          <link rel="stylesheet" href="../css/aboutSuperhero.css">
+     </head>
+     <body>
+          <!-- Navbar starts -->
+          <div class="navbar-wrapper">
+               <div class="navabar-title">
+               <a class="title" href="../index.html">
+                    <img src="../assets/heroLogo.svg" alt="superheroLogo" width="80" height="60"
+                    class="d-inline-block align-text-center">
+                    <span id="update-title">About Superhero</span>
+               </a>
+               </div>
+               <div class="info-page-buttons">
+                    <!-- Favourite button navigate to favourite superhero list page -->
+                    <div class="info-fav-button">
+                         <a class="fav_buttons" href="../view/favouriteSuperheroes.html">
+                              <i class="fa-solid fa-heart fav-icon"></i>
+                              Favourites
+                         </a>
+                    </div>
+                    <!-- home button navigate to home/main page -->
+                    <div class="info-home-button">
+                         <a class="home_button" href="../index.html">
+                              <i class="fa-solid fa-heart fav-icon"></i>
+                              Home
+                         </a>
+                    </div>
+               </div>
+          </div>
+          <!-- Navbar ends -->
+          <!-- body starts - contains about/more information about superhero -->
+          <div class="about-container-wrapper">
+          <div class="card" id="info-container">
+          </div>
+          </div>
+          <!-- body ends -->
+          <!--  Notification on added and removal there favourite heroes -->
+          <span data-visiblity="hide" class="added-notification">Added to the favourites list successfully!</span>
+          <span data-visiblity="hide" class="removed-notification">Removed from the favourites list successfully!</span>
+          <!-- External Script file -->
+          <script defer src="../js/aboutSuperhero.js"></script>
+     </body>
+</html>
