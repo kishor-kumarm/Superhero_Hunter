@@ -5,11 +5,15 @@ let cardContainer = document.getElementById('fav-superheros-container');
 window.addEventListener("load", function () {
      // getting the favouriteCharacters array from the localStorage also handling null check
      let favourites = localStorage.getItem("favouriteCharacters"); 
-     if (favourites.length == 0 || favourites == null) {
+     if (favourites == null) {
           cardContainer.innerHTML = "<p style=\"font-size: 40px;\">No Favourites Superheros has been added yet!</p>"
           return;
      } else {
           favourites = JSON.parse(this.localStorage.getItem("favouriteCharacters"));
+          if(favourites.length == 0){
+               cardContainer.innerHTML = "<p style=\"font-size: 40px;\">No Favourites Superheros has been added yet!</p>"
+               return;
+          }
      }
      cardContainer.innerHTML = "";
      // updating the DOM with the favouriteCharacters cards which is being as list of favourite superheroes list
